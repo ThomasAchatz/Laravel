@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Test/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/Test/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/Test/vendor/vlucas/phpdotenv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
