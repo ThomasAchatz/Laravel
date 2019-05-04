@@ -12,7 +12,7 @@ class BooksTableSeeder extends Seeder
         $book->isbn = '1234567890';
         $book->subtitle = 'Wieso, Weshalb, Warum?';
         $book->rating = 5;
-        $book->description = 'Ein tolles Buch für Kinder und dumme Erwachsene';
+        $book->description = 'Ein tolles Buch für Kinder und  Erwachsene';
         $book->published = new DateTime();
         $book->price = 20;
         $user = \App\User::all()->first();

@@ -41,7 +41,7 @@ class OrderController extends Controller {
             return response()->json("order  failed: " . $e->getMessage(), 420);
         }
     }
-    public function saveNewStatus(Request $request): JsonResponse{
+    public function saveStatus(Request $request): JsonResponse{
         $request = $this->parseRequest($request);
         DB::beginTransaction();
         try {

@@ -33,7 +33,7 @@ Route::group(['middleware' =>['api', 'cors', 'jwt.auth']],function(){
     Route::get('orders/{user_id}', 'OrderController@getAllOrdersByUser');
     Route::get('admin', 'OrderController@index');
     Route::get('admin/{order_id}', 'OrderController@getOrder');
-    Route::put('admin', 'OrderController@saveNewStatus');
+    Route::put('admin', 'OrderController@saveStatus');
 });
 
 
