@@ -12,7 +12,6 @@ class AuthJWT
      * @param \Closure $next
      * @return mixed
      *
-     * Ruft die User vom JWT Auth auf
      */
     public function handle($request, Closure $next)
     {

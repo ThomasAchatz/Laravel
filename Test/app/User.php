@@ -18,10 +18,14 @@ class User extends Authenticatable implements JWTSubject
     ];
     public function books() : HasMany {
         return $this->hasMany('Book::class');
+
+
     }
     public function orders() : BelongsToMany {
         return $this->belongsToMany(Order::class);
     }
+
+
     public function getJWTIdentifier(){
         return $this->getKey();
     }

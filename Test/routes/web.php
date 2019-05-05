@@ -14,10 +14,10 @@
 use \Illuminate\Support\Facades;
 use App\Book;
 
-//das ist die default route
+//defaulTRoute
 Route::get('/', 'BookController@index');
 
-//das ist dann  die startseite
+//Startseite
 Route::get('/books', 'BookController@index');
     //$books = DB::table('books')->get();
 

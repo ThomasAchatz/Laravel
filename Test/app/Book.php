@@ -8,8 +8,7 @@ class Book extends Model
 {
 
     protected $fillable = ['isbn', 'title', 'subtitle', 'published', 'price', 'rating',
-        'description', 'user_id']; //whitelist
-
+        'description', 'user_id'];
 
 
     public function scopeFavourite($query){

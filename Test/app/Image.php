@@ -7,9 +7,7 @@ class Image extends Model
     protected $fillable = [
         'url', 'title'
     ];
-    /**
-     * book hat viele Bilder
-     */
+
     public function book() : BelongsTo {
         return $this->belongsTo(Book::class);
     }

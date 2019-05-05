@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Order extends Model
 {
     protected $fillable = ['date', 'total_brutto', 'total_netto', 'user_id'];
+
+
     public function books() : BelongsToMany {
         return $this->belongsToMany(Book::class)->withPivot('quantity');
     }
